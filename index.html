@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>神舟租车</title>
+	<link rel="stylesheet" href="css/merge.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/index.js"></script>
+	
+</head>
+<body>
+	<div class="header">
+		<div class="wrap">
+			<a href="JavaScript:;" class="logo"></a>
+			<ul class="menu clearfix">
+				<li><a href="JavaScript:;">首页</a></li>
+				<li><a href="JavaScript:;">上门取送</a></li>
+				<li><a href="JavaScript:;">到店取还</a></li>
+				<li><a href="JavaScript:;">神州专车</a></li>
+				<li><a href="JavaScript:;">长租</a></li>
+				<li><a href="JavaScript:;">企业租车</a></li>
+				<li><a href="JavaScript:;">顺风车</a></li>
+				<li><a href="JavaScript:;">门店</a></li>
+				<li><a href="JavaScript:;">活动</a></li>
+				<li><a href="JavaScript:;">国际租车</a></li>
+			</ul>
+			<div class="login">
+				<div class="login-main">
+					<a href="JavaScript:;">登陆</a>
+					<b>/</b>
+					<a href="JavaScript:;">注册</a>
+					<a href="JavaScript:;">我的神舟</a>
+				</div>
+			</div>
+			<div class="phone">
+				<span></span>
+				<div class="phone-img">
+					<img src="http://image.zuchecdn.com/newversion/news/common/zc_gaphone.png?v=20160516" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="banner">
+		<div class="banner-wrap">
+			<ul class="slides">
+				<li><a href="JavaScript:;" style="background:url(http://fimg.zuchecdn.com/upload/web/sendcar-banner-new.jpg);background-position: top center;"></a></li>
+				<li><a href="JavaScript:;" style="background:url(http://fimg.zuchecdn.com/upload/web/HomePage/HeadFigure/2016/20160929pufa_web.jpg);background-position: top center;"></a></li>
+				<li><a href="JavaScript:;" style="background: url(http://fimg.zuchecdn.com/upload/web/HomePage/HeadFigure/2016/20161031huojian_web.jpg);background-position: top center;"></a></li>
+				<li><a href="JavaScript:;" style="background: url(http://fimg.zuchecdn.com/upload/web/HomePage/HeadFigure/2016/20161017buycar_web.jpg);background-position: top center;"></a></li>
+				<li><a href="JavaScript:;" style="background: url(http://image.zuchecdn.com/newversion/focusPicture/2016/20160620new150_web.jpg);background-position: top center;"></a></li>
+			</ul>
+			
+			<ul class="bullet">
+				<li class="active"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<div class="brand">
+			<div class="wrap">
+				<ul>
+					<li><i class="yecx"></i><p><b>100+</b>车型</p></li>
+					<li><i class="yewd"></i><p><b>1000+</b>网点</p></li>
+					<li><i class="yecxn"></i><p><b>100%</b>车险</p></li>
+					<li><i class="yelc"></i><p>无限里程</p></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="search">
+		<div class="index_select">
+			<ul class="service">
+				<li class="shangmen active">
+					<p>上门取送<span>(免费就是爽)</span></p>
+				</li>
+				<li class="daodian">
+					<p>到店取还<span>(24h放肆租)</span></p>
+				</li>
+				<li class="tejia">
+					<p>特价套餐<span>(低至6折)</span></p>
+				</li>
+			</ul>
+			<ul class="detail">
+				<li class="de_shangmen active">
+					
+					<dl class="quche">
+						<dt>取车</dt>
+						<dd><input class='address' type="text" placeholder="深圳"></dd>
+						<dd><input class='address2' type="text" placeholder="请输入送货上门地址"></dd>
+						<dd><label for="">送车上门<span></span></label></dd>
+					</dl>
+					<dl class="huanche">
+						<dt>还车</dt>
+						<dd><input type="text" class='address' placeholder="深圳"></dd>
+						<dd><input type="text" class='address2' type="text" placeholder="请输入上门取车地址"></dd>
+						<dd><label for="">上门取车<span></span></label></dd>
+					</dl>
+					<dl class="duanzu">
+						<dt>租期</dt>
+						<dd>
+							<input class="date" type="text" placeholder="2016-11-12">
+							<div></div>
+							<input class="time" placeholder="10:00" type="text">
+						</dd>
+						<dd><span></span></dd>
+						<dd>
+							<input type="text" class="date" placeholder="2016-11-14">
+							<div></div>
+							<input type="text" class="time" placeholder="10:00">
+						</dd>
+					</dl>
+					<div class="xuanche">
+						<a href="JavaScript:;" class="btn">立即选车</a>
+					</div>
+				</li>
+				<li class="de_daodian">
+					
+					<dl class="quche">
+						<dt>到店取车</dt>
+						<dd><input class='address' type="text" placeholder="深圳"></dd>
+						<dd><input class='address2' type="text" placeholder="请输入送货上门地址"></dd>
+						<dd><label for="">送车上门<span></span></label></dd>
+					</dl>
+					<dl class="huanche">
+						<dt>到店还车</dt>
+						<dd><input type="text" class='address' placeholder="深圳"></dd>
+						<dd><input type="text" class='address2' type="text" placeholder="请输入上门取车地址"></dd>
+						<dd><label for="">上门取车<span></span></label></dd>
+					</dl>
+					<dl class="duanzu">
+						<dt>到店租期</dt>
+						<dd>
+							<input class="date" type="text" placeholder="2016-11-12">
+							<div></div>
+							<input class="time" placeholder="10:00" type="text">
+						</dd>
+						<dd><span></span></dd>
+						<dd>
+							<input type="text" class="date" placeholder="2016-11-14">
+							<div></div>
+							<input type="text" class="time" placeholder="10:00">
+						</dd>
+					</dl>
+					<div class="xuanche">
+						<a href="JavaScript:;" class="btn">立即选车</a>
+					</div>
+				</li>
+				<li class="de_tejia">
+					<ul>
+			            <li>
+			            	<a href="http://order.zuche.com/longRent-workday.html">
+			                    <div class="tc-left">
+			                        <h3>工作日套餐</h3>
+			                        <h4>( 4天 )</h4>
+			                    </div>
+				                <div class="tc-right">
+			                        <p class="h20"></p>
+			                        <div class="yuan dab">超值<br>优惠</div>
+			                        <p class="h20"></p>
+			                    </div>
+			                </a>
+			            </li>
+			            <li>
+			            	<a href="http://order.zuche.com/longRent-week.html">
+			                    <div class="tc-left">
+			    	                <h3>周租套餐</h3>
+			    	                <h4>( 7-27天 )</h4>
+			                    </div>
+			                    <div class="tc-right">
+			                        <p class="h20"></p>
+			    	                <div class="yuan">8折<span class="f14">起</span></div>
+			    	                <p class="h20"></p>
+			                    </div>
+			                </a>
+			            </li>
+			            <li>
+			            	<a href="http://order.zuche.com/longRent-month.html">
+			                    <div class="tc-left">
+			    	                <h3>月租套餐</h3>
+			    	                <h4>( 28+天 )</h4>
+			                    </div>
+			                    <div class="tc-right">
+			                        <p class="h20"></p>
+			    	                <div class="yuan">6折<span class="f14">起</span></div>
+			    	                <p class="h20"></p>
+			                    </div>
+			                </a>
+			            </li>
+			            <li>
+			            	<a href="http://order.zuche.com/longRent-year.html">
+			                    <div class="tc-left">
+			    	                <h3>年租套餐</h3>
+			    	                <h4>( 360-364天 )</h4>
+			                    </div>
+			                    <div class="tc-right">
+			                        <p class="h20"></p>
+			    	                <div class="yuan dab">用车<br>新体验</div>
+			    	                <p class="h20"></p>
+			                    </div>
+			                </a>
+			            </li>
+        			</ul>
+        			<div class="zc_tc_infor"><span class="zc-retan"></span> 周租/月租套餐附加增值服务，GPS导航仪/不计免赔服务/儿童座椅，7天价格封顶。</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="service_main">
+		<div class="wrap">
+			<div class="service_wrap">
+				<ul>
+				<li>
+					<h3>短租自驾</h3>
+					<div class="icon"></div>
+					<p>24小时轻松取 / 还车</p>
+					<a href="JavaScript:;" class="btn">我要租车</a>
+				</li>
+				<li>
+					<h3>长租服务</h3>
+					<div class="icon"></div>
+					<p>长租一次告别常租</p>
+					<a href="JavaScript:;" class="btn">我要租车</a>
+				</li>
+				<li>
+					<h3>企业租车</h3>
+					<div class="icon"></div>
+					<p>企业出行一步搞定</p>
+					<a href="JavaScript:;" class="btn">我要租车</a>
+				</li>
+				<li>
+					<h3>顺风车站</h3>
+					<div class="icon"></div>
+					<p>价格便宜就是任性</p>
+					<a href="JavaScript:;" class="btn">我要租车</a>
+				</li>
+				
+			</ul>
+			</div>
+			
+		</div>
+	</div>
+	<div class="sale_car">
+		<div class="wrap">
+			<div class="title">
+				<h2>优惠车型大搜罗</h2>
+				<p>每日特价，劲爆优惠天天推荐，值得您关注</p>
+			</div>
+			<div class="sale_l">
+				
+				<div class="city">
+					<h1>限时优惠</h1>
+					<ul>
+						<li>
+							<a href="JavaScript:;" class="active">徐州</a>
+						</li>
+						<li>
+							<a href="JavaScript:;">成都</a>
+						</li>
+						<li>
+							<a href="JavaScript:;">西双版纳</a>
+						</li>
+						<li>
+							<a href="JavaScript:;">绍兴</a>
+						</li>
+						<li>
+							<a href="JavaScript:;">广州</a>
+						</li>
+						<li>
+							<a href="JavaScript:;">南京</a>
+						</li>
+						<li>
+							<a href="JavaScript:;">珠海</a>
+						</li>
+					</ul>
+				</div>
+				<div class="city_de">
+					<ul class="city_car">
+						<li class="xuzhou active">
+							<ul class="xuzhou_car">
+								<li class="bieke">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/ky.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>徐州别克凯越</p>
+										</div>
+									</a>
+								</li>
+								<li class="qiya">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/k2.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>起亚</p>
+										</div>
+									</a>
+								</li>
+								<li class="xuetie">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/2014ALS.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>雪铁龙</p>
+										</div>
+									</a>
+								</li>
+								<li class="fengtian">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/FTZX.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>丰田</p>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="chengdu">
+							<ul class="chengdu_car">
+								<li class="bieke">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/ky.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>成都别克凯越</p>
+										</div>
+									</a>
+								</li>
+								<li class="qiya">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/k2.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>起亚</p>
+										</div>
+									</a>
+								</li>
+								<li class="xuetie">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/2014ALS.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>雪铁龙</p>
+										</div>
+									</a>
+								</li>
+								<li class="fengtian">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/FTZX.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>丰田</p>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="xishuang">
+							<ul class="xishuang_car">
+								<li class="bieke">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/ky.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>西双版纳别克凯越</p>
+										</div>
+									</a>
+								</li>
+								<li class="qiya">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/k2.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>起亚</p>
+										</div>
+									</a>
+								</li>
+								<li class="xuetie">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/2014ALS.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>雪铁龙</p>
+										</div>
+									</a>
+								</li>
+								<li class="fengtian">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/FTZX.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>丰田</p>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="shaoxing">
+							<ul class="shaoxing_car">
+								<li class="bieke">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/ky.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>绍兴别克凯越</p>
+										</div>
+									</a>
+								</li>
+								<li class="qiya">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/k2.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>起亚</p>
+										</div>
+									</a>
+								</li>
+								<li class="xuetie">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/2014ALS.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>雪铁龙</p>
+										</div>
+									</a>
+								</li>
+								<li class="fengtian">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/FTZX.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>丰田</p>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="guangzhou">
+							<ul class="guangzhou_car">
+								<li class="bieke">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/ky.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>广州别克凯越</p>
+										</div>
+									</a>
+								</li>
+								<li class="qiya">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/k2.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>起亚</p>
+										</div>
+									</a>
+								</li>
+								<li class="xuetie">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/2014ALS.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>雪铁龙</p>
+										</div>
+									</a>
+								</li>
+								<li class="fengtian">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/FTZX.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>丰田</p>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nanjing">
+							<ul class="nanjing_car">
+								<li class="bieke">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/ky.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>南京别克凯越</p>
+										</div>
+									</a>
+								</li>
+								<li class="qiya">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/k2.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>起亚</p>
+										</div>
+									</a>
+								</li>
+								<li class="xuetie">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/2014ALS.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>雪铁龙</p>
+										</div>
+									</a>
+								</li>
+								<li class="fengtian">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/FTZX.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>丰田</p>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="zhuhai">
+							<ul class="zhuhai_car">
+								<li class="bieke">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/ky.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>珠海别克凯越</p>
+										</div>
+									</a>
+								</li>
+								<li class="qiya">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/k2.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>起亚</p>
+										</div>
+									</a>
+								</li>
+								<li class="xuetie">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/2014ALS.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>雪铁龙</p>
+										</div>
+									</a>
+								</li>
+								<li class="fengtian">
+									<a href="JavaScript:;">
+										<span class="bg">
+											<img src="http://static.zuchecdn.com/images/newversion/news/order/FTZX.jpg" alt="">
+										</span>
+										<div class="bg_title">
+											<h2><i class="icon"></i>11-16<i class="price">$78</i></h2>
+											<p>丰田</p>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</li>
+						
+						
+					</ul>
+				</div>
+			</div>
+			<div class="sale_r">
+				<div class="title">
+					<strong>顺风车</strong>
+					<span>更多 ></span>
+				</div>
+				<div class="shunfengche">
+					<a href="JavaScript:;">
+						<div class="bg_title">
+							<h3>$100</h3>
+							<p>原价:$1508</p>
+						</div>
+						<div class="bg_img">
+							<div class="bg_imgs"></div>
+							<img src="http://image.zuchecdn.com/newversion/news/order/past18.jpg" alt="">
+						</div>
+
+					</a>
+				</div>
+				<div class="where">
+					<div class="citys">
+						<div class="citys_l">
+							<p>北京</p>
+							<p>11-12</p>
+							<p>最早取车时间</p>
+						</div>
+						<div class="citys_m">
+							<div class="pare">
+								<span>限租4天</span>
+								<img src="http://image.zuchecdn.com/newversion/news/common/shape.png" alt="">
+							</div>
+						</div>
+						<div class="citys_r">
+							<p>北京</p>
+							<p>11-12</p>
+							<p>最早取车时间</p>
+						</div>
+					</div>
+					<div class="xinghao">
+						<p>大众帕萨特</p>
+						<p>大众帕萨特/三厢/1.8T自动 乘坐5人</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="onsale">
+		<div class="wrap">
+			<div class="title">
+				<h3>优惠活动，点亮生活趁现在</h3>
+				<p>多种租车模式想怎么租，就怎么租，时间与里程统统都忘掉</p>
+			</div>
+			<div class="onmain">
+				<ul>
+					<li>
+						<a href="JavaScript:;"><img src="http://image.zuchecdn.com/newversion/news/huodong/20160311pc_news_03.jpg" alt=""></a>
+						<h4>超值优惠 低至6折！</h4>
+						<p>月租价格 再刷新低</p>
+						<p class="last">底价诱惑 就等你了！</p>
+						<a href="JavaScript:;" class="btn">立即参与></a>
+					</li>
+					<li>
+						<a href="JavaScript:;"><img src="http://image.zuchecdn.com/newversion/news/huodong/20160909hertz_web.jpg" alt=""></a>
+						<h4>赫兹全球租车 点我直达！</h4>
+						<p>全球租车网络 横跨6大洲</p>
+						<p class="last">支持异国还车 超多优惠轮番来袭</p>
+						<a href="JavaScript:;" class="btn">立即参与></a>
+					</li>
+					<li>
+						<a href="JavaScript:;"><img src="http://image.zuchecdn.com/newversion/news/huodong/20160803jianghu_pc.jpg" alt=""></a>
+						<h4>集结号 最高悬赏300元！</h4>
+						<p>三款车型 租减特惠</p>
+						<p class="last">虚位以待 英雄安在？</p>
+						<a href="JavaScript:;" class="btn">立即参与></a>
+					</li>
+					<li>
+						<a href="JavaScript:;"><img src="http://image.zuchecdn.com/newversion/news/huodong/20160530ertongzuoyi.jpg" alt=""></a>
+						<h4>儿童安全座椅免费用！</h4>
+						<p>全国直营门店全线支持</p>
+						<p class="last">神州租车和你 一同守护宝宝安全</p>
+						<a href="JavaScript:;" class="btn">立即参与></a>
+					</li>
+					
+				</ul>
+				<a href="JavaScript:;" class="pre arrow2"></a>
+				<a href="JavaScript:;" class="next arrow2"></a>
+				<a href="JavaScript:;" class="btn">更多优惠></a>
+			</div>
+		</div>
+	</div>
+	<div class="news">
+		<div class="wrap">
+			<div class="title">
+				<h3>神州快讯</h3>
+			</div>
+			<div class="newsmain">
+				<ul>
+					<li>
+					<a href="JavaScript:;">
+						<img src="http://image.zuchecdn.com/newversion/news/huodong/20160922C2C_pc.jpg" alt="">
+						<p>神州专车发布U+战略 开放平台永不抽成</p>
+					</a>
+					</li>
+					<li>
+					<a href="JavaScript:;">
+						<img src="http://image.zuchecdn.com/newversion/news/huodong/20160905shangmen_pc.jpg" alt="">
+						<p>神州租车“免费上门送取车”再树行业新标杆</p>
+					</a>
+					</li>
+					<li>
+					<a href="JavaScript:;">
+						<img src="http://image.zuchecdn.com/newversion/news/huodong/20160726Carmarket_pc.jpg" alt="">
+						<p>神州优车挂牌新三板首日市值超400亿元</p>
+					</a>
+					</li>
+					<li>
+					<a href="JavaScript:;">
+						<img src="http://image.zuchecdn.com/newversion/news/huodong/20160711guangzhou_pc.jpg" alt="">
+						<p>广州自驾攻略 另有住宿、漂流超低折扣</p>
+					</a>
+					</li>
+				</ul>
+			</div>
+			<a href="JavaScript:;" class="btn">更多快讯></a>
+		</div>
+	</div>
+	<div class="footmenu">
+		<div class="wrap">
+			<div class="footmain">
+				<dl class="yy">
+					<dt>租车预定说明</dt>
+					<dd>
+						<a href="JavaScript:;">服务时间</a>
+						<a href="JavaScript:;">待租车况</a>
+						<a href="JavaScript:;">服务预订</a>
+						<a href="JavaScript:;">短租产品</a>
+						<a href="JavaScript:;">租车资格</a>
+						<a href="JavaScript:;">取还车说明</a>
+					</dd>
+				</dl>
+				<dl class="yy">
+					<dt>租车预定说明</dt>
+					<dd>
+						<a href="JavaScript:;">服务时间</a>
+						<a href="JavaScript:;">待租车况</a>
+						<a href="JavaScript:;">服务预订</a>
+						<a href="JavaScript:;">短租产品</a>
+						<a href="JavaScript:;">租车资格</a>
+						<a href="JavaScript:;">取还车说明</a>
+					</dd>
+				</dl>
+				<dl class="yy">
+					<dt>租车预定说明</dt>
+					<dd>
+						<a href="JavaScript:;">服务时间</a>
+						<a href="JavaScript:;">待租车况</a>
+						<a href="JavaScript:;">服务预订</a>
+						<a href="JavaScript:;">短租产品</a>
+						<a href="JavaScript:;">租车资格</a>
+						<a href="JavaScript:;">取还车说明</a>
+					</dd>
+				</dl>
+				<dl class="yy">
+					<dt>租车预定说明</dt>
+					<dd>
+						<a href="JavaScript:;">服务时间</a>
+						<a href="JavaScript:;">待租车况</a>
+						<a href="JavaScript:;">服务预订</a>
+						<a href="JavaScript:;">短租产品</a>
+						<a href="JavaScript:;">租车资格</a>
+						<a href="JavaScript:;">取还车说明</a>
+					</dd>
+				</dl>
+				<dl class="yy">
+					<dt>租车预定说明</dt>
+					<dd>
+						<a href="JavaScript:;">服务时间</a>
+						<a href="JavaScript:;">待租车况</a>
+						<a href="JavaScript:;">服务预订</a>
+						<a href="JavaScript:;">短租产品</a>
+						<a href="JavaScript:;">租车资格</a>
+						<a href="JavaScript:;">取还车说明</a>
+					</dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="wrap">
+			<div class="title">
+				<h4>城市快捷入口</h4>
+			</div>
+			<div class="abc">
+				<ul class="abc_de">
+					<li><a class="active" href="JavaScript:;">热门</a></li>
+					<li><a href="JavaScript:;">A</a></li>
+					<li><a href="JavaScript:;">B</a></li>
+					<li><a href="JavaScript:;">C</a></li>
+					<li><a href="JavaScript:;">A</a></li>
+					<li><a href="JavaScript:;">B</a></li>
+					<li><a href="JavaScript:;">C</a></li>
+					<li><a href="JavaScript:;">A</a></li>
+					<li><a href="JavaScript:;">B</a></li>
+					<li><a href="JavaScript:;">C</a></li>
+				</ul>
+				<ul class="city_de">
+					<li class="hot active">
+						<ul>
+							<li><a href="JavaScript:;">北京租车</a></li>
+							<li><a href="JavaScript:;">上海租车</a></li>
+							<li><a href="JavaScript:;">广州租车</a></li>
+							<li><a href="JavaScript:;">深圳租车</a></li>
+							<li><a href="JavaScript:;">北京租车</a></li>
+							<li><a href="JavaScript:;">上海租车</a></li>
+							<li><a href="JavaScript:;">广州租车</a></li>
+							<li><a href="JavaScript:;">深圳租车</a></li>
+							<li><a href="JavaScript:;">北京租车</a></li>
+							<li><a href="JavaScript:;">上海租车</a></li>
+							<li><a href="JavaScript:;">广州租车</a></li>
+							<li><a href="JavaScript:;">深圳租车</a></li>
+							<li><a href="JavaScript:;">北京租车</a></li>
+							<li><a href="JavaScript:;">上海租车</a></li>
+							<li><a href="JavaScript:;">广州租车</a></li>
+							<li><a href="JavaScript:;">深圳租车</a></li>
+						</ul>
+					</li>
+					<li class="aa"></li>
+					<li class="bb"></li>
+					<li class="cc"></li>
+				</ul>
+			</div>
+			<div class="friends">
+				<span class="fl">友情链接:</span>
+				<div class="fr">
+					<a href="http://www.maimaiche.com/cn/" target="_blank">神州买买车</a>
+			    	<a href="http://www.carbank.cn/" target="_blank">神州闪贷</a>
+					<a href="http://bj.tuniu.com" target="_blank">北京旅游网</a>
+					<a href="http://z.mafengwo.cn" target="_blank">旅游指南</a>
+					<a href="http://www.ynet.com/" target="_blank">北青网</a>
+					<a href="http://wan.cncn.com/" target="_blank">欣欣旅游商城</a>
+					<a href="http://www.mianfeiwucan.org/" target="_blank">免费午餐网</a>
+					<a href="http://www.city8.com" target="_blank">中国街景地图</a>
+					<a href="http://www.ctcnn.com" target="_blank">劲旅网</a>
+					<a href="http://www.fhlyou.com" target="_blank">凤凰古城</a>
+					<a href="http://www.taoche.com" target="_blank">二手车交易</a>
+					<a href="http://www.ilvping.com" target="_blank">旅评网</a>
+					<a href="http://www.lavago.com" target="_blank">拉拉勾旅游网</a>
+					<a href="http://www.caissa.com.cn" target="_blank">凯撒旅游网</a>
+					<a href="http://www.17u.cn" target="_blank">同程网</a>
+					<a href="http://travel.sina.com.cn" target="_blank">新浪旅游</a>
+					<a href="http://www.ufenghuang.com" target="_blank">游凤凰网</a>
+					<a href="http://www.cits.cn/" target="_blank">国旅在线</a>
+					<a href="http://www.qyer.com/" target="_blank">穷游出境游</a>
+					<a href="http://www.jdair.net/" target="_blank">首都航空</a>
+				</div>
+			</div>
+			<div class="about">
+				<div class="about_de">
+		            <a title="关于我们" href="http://huodong.zuche.com/gywm/" rel="nofollow">关于我们</a>
+		            <a title="投资者关系" target="_blank" href="http://ir.zuche.com" rel="nofollow">投资者关系</a>
+		            <a target="_parent" title="新闻中心" href="http://news.zuche.com/">新闻中心</a>
+		            <a title="加盟合作" target="_blank" href="http://jiameng.zuche.com">加盟合作</a>
+		            <a title="隐私保护" target="_parent" href="http://huodong.zuche.com/ysbh/" rel="nofollow">隐私保护</a>
+		            <a title="网站导航" target="_parent" href="http://help.zuche.com/sitemap/">网站导航</a>
+		            <a title="联系我们" target="_parent" href="http://huodong.zuche.com/lxwm/" rel="nofollow">联系我们</a>
+		            <a title="招贤纳士" target="_blank" href="http://hr.zuche.com/" rel="nofollow">招贤纳士</a>
+		            <a target="_blank" href="http://en.zuche.com" class="eng_wz">English<i class="eng_icon"></i></a>
+				</div>
+				<div class="copyright">
+					<p class="fl" >Copyright©2008-2016 www.zuche.com All Rights Reserved.　神州租车官网 京ICP备10005002号   京公网安备号 11010502026705</p>
+					<p class="fr" >如果您对神州租车网站有任何意见，欢迎发送邮件到 <a href="Mailto:web@zuche.com" class="yellowmailt">web@zuche.com</a></p>
+					<p class="chengxin">
+						<a href="JavaScript:;"></a>
+						<a href="JavaScript:;"></a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
